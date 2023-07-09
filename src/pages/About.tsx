@@ -29,7 +29,7 @@ const About = () => {
             </p>
             <div className="flex flex-col items-center justify-center gap-4">
               <Link
-                href="#services"
+                href="#team"
                 className="text-semibold my-1 rounded-full bg-[var(--color4)]  px-4 py-2 font-semibold text-white no-underline transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-[var(--color3)]"
               >
                 Learn More

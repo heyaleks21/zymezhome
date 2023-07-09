@@ -28,7 +28,7 @@ const Carousel = () => {
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Portfolio
           </h1>
-          <p className="text-[var(--color4) flex flex pb-4 text-center text-2xl font-semibold">
+          <p className="text-[var(--color4) flex flex pb-8 text-center text-2xl font-semibold">
             Check out our recent work
           </p>
         </div>
@@ -37,7 +37,7 @@ const Carousel = () => {
             <Image className="rotate-180" src={rightArr} alt="" />
           </button>
           <Image
-            className="w-60 rounded bg-cover object-cover hover:bg-black/80 lg:w-96"
+            className="w-60 rounded bg-cover object-cover lg:w-96"
             alt=""
             src={test2}
           />

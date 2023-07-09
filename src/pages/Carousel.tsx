@@ -4,6 +4,8 @@ import rightArr from "/public/assets/right-arrow1.png";
 import test from "/public/assets/test.jpeg";
 import test1 from "/public/assets/test1.jpeg";
 import test2 from "/public/assets/test2.jpeg";
+import Link from "next/link";
+import topImg from "/public/assets/upload.png";
 
 const Carousel = () => {
   const images = [test, test1, test2];
@@ -46,6 +48,11 @@ const Carousel = () => {
               <Image src={rightArr} alt="" />
             </button>
           </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link href="#contact">
+            <Image alt="" src={topImg} className="mt-8 rotate-180"></Image>
+          </Link>
         </div>
       </div>
     </>

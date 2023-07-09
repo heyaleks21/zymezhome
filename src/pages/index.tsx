@@ -29,10 +29,10 @@ export default function Home() {
         <Team />
         <div id="services"></div>
         <Services />
-        <div id="contact"></div>
-        <Contact />
         <div id="portfolio"></div>
         <Carousel />
+        <div id="contact"></div>
+        <Contact />
         <Footer />
       </main>
     </>

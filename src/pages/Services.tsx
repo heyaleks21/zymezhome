@@ -102,7 +102,7 @@ const Services = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <Link href="#contact">
+          <Link href="#portfolio">
             <Image alt="" src={topImg} className="rotate-180"></Image>
           </Link>
         </div>

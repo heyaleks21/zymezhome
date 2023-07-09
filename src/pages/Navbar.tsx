@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
+import navImg from "/public/assets/menu.png";
+import brandImg from "/public/assets/zymez-1.png";
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -52,14 +55,21 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
-        <img
+        <Image
+          height={48}
+          alt=""
           onClick={() => {
             setIsNavExpanded(!isNavExpanded);
           }}
-          className="h-11 cursor-pointer md:hidden"
-          src="/assets/menu.png"
-        ></img>
-        <img className="h-11 hover:scale-125" src="/assets/zymez-1.png"></img>
+          className="cursor-pointer md:hidden"
+          src={navImg}
+        ></Image>
+        <Image
+          width={120}
+          alt=""
+          className="hover:scale-125"
+          src={brandImg}
+        ></Image>
         <Link
           href="#contact"
           className={

@@ -1,12 +1,8 @@
-import { signIn, signOut, useSession } from "next-auth/react";
 import Head from "next/head";
-import Link from "next/link";
-import { api } from "~/utils/api";
 import Navbar from "./Navbar";
 import Landing from "./Landing";
 import About from "./About";
 import Team from "./Team";
-
 import Services from "./Services";
 import Footer from "./Footer";
 import TopButton from "./TopButton";

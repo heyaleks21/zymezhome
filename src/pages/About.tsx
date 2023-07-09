@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import arrowImg from "/public/assets/right-arrow.png";
 
 const About = () => {
   return (
@@ -41,7 +43,7 @@ const About = () => {
           <div className="flex flex-row flex-wrap items-center justify-center gap-4">
             <div className="hover:text-none flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/70 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-48 lg:w-48 xl:h-52 xl:w-52">
               <p className="font-semibold">High-quality code</p>
-              <img className="" src="/assets/right-arrow.png"></img>
+              <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-semibold lg:text-base">
                   Professionally designed websites and applications that
@@ -51,7 +53,7 @@ const About = () => {
             </div>
             <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/60 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-48 lg:w-48 xl:h-52 xl:w-52">
               <p className="font-semibold">Full-stack teams</p>
-              <img className="" src="/assets/right-arrow.png"></img>
+              <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-semibold lg:text-base ">
                   Highly skilled experts proficient in both frontend and backend
@@ -63,7 +65,7 @@ const About = () => {
           <div className="flex flex-row flex-wrap items-center justify-center gap-4">
             <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/50 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-48 lg:w-48 xl:h-52 xl:w-52">
               <p className="font-semibold">Agile approach</p>
-              <img className="" src="/assets/right-arrow.png"></img>
+              <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg  [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-semibold lg:text-base ">
                   Flexible approach for smooth development, encouraging teamwork
@@ -73,7 +75,7 @@ const About = () => {
             </div>
             <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/30 shadow-lg transition-all duration-500  [transform-style:preserve-3d]  hover:[transform:rotateX(180deg)] lg:h-48 lg:w-48 xl:h-52 xl:w-52">
               <p className="font-semibold">Flexibility</p>
-              <img className="" src="/assets/right-arrow.png"></img>
+              <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-semibold lg:text-base ">
                   Tailored designs and flexible workflows that can be customized

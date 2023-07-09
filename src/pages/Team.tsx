@@ -1,4 +1,8 @@
 import React from "react";
+import Image from "next/image";
+import aleks from "/public/assets/aleks.png";
+import cal from "/public/assets/calum.png";
+import anth from "/public/assets/anth.webp";
 
 const Team = () => {
   return (
@@ -21,7 +25,8 @@ const Team = () => {
           <div className="group h-40 w-40 [perspective:1000px] lg:h-48 lg:w-48 xl:h-60 xl:w-60">
             <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
-                <img
+                <Image
+                  src={anth}
                   className="h-full w-full rounded-full bg-[url('/assets/anth.webp')] bg-cover object-cover shadow-xl shadow-black/40"
                   alt=""
                 />
@@ -40,7 +45,8 @@ const Team = () => {
           <div className="group h-40 w-40 [perspective:1000px] lg:h-48 lg:w-48 xl:h-60 xl:w-60">
             <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
-                <img
+                <Image
+                  src={cal}
                   className="h-full w-full rounded-full bg-[url('/assets/calum.png')] bg-cover object-cover shadow-xl shadow-black/40"
                   alt=""
                 />
@@ -59,7 +65,8 @@ const Team = () => {
           <div className="group h-40 w-40 [perspective:1000px] lg:h-48 lg:w-48 xl:h-60 xl:w-60">
             <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
-                <img
+                <Image
+                  src={aleks}
                   className="h-full w-full rounded-full bg-[url('/assets/aleks.png')] bg-cover object-cover shadow-xl shadow-black/40"
                   alt=""
                 />

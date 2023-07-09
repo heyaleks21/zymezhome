@@ -40,7 +40,7 @@ const Carousel = () => {
           <Image
             className="w-60 rounded bg-cover object-cover lg:w-96"
             alt=""
-            src={test2}
+            src={test1}
           />
           <div>
             <button className="btn" onClick={handleNext}>

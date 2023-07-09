@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Image from "next/image";
-import rightArr from "/public/assets/right-arrow1.png";
 import test from "/public/assets/test.jpeg";
 import test1 from "/public/assets/test1.jpeg";
 import test2 from "/public/assets/test2.jpeg";
@@ -34,9 +33,9 @@ const Carousel = () => {
             Check out our recent work
           </p>
         </div>
-        <div className="flex flex-row items-center justify-start gap-5">
+        <div className="flex flex-row items-center justify-start gap-8">
           <button className="" onClick={handlePrev}>
-            <Image className="rotate-180" src={rightArr} alt="" />
+            <Image className="-rotate-90" src={topImg} alt="" />
           </button>
           <Image
             className="w-60 rounded bg-cover object-cover lg:w-96"
@@ -45,7 +44,7 @@ const Carousel = () => {
           />
           <div>
             <button className="btn" onClick={handleNext}>
-              <Image src={rightArr} alt="" />
+              <Image className="rotate-90" src={topImg} alt="" />
             </button>
           </div>
         </div>

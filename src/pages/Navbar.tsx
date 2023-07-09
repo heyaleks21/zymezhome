@@ -56,7 +56,7 @@ const Navbar = () => {
           </Link>
         </div>
         <Image
-          height={48}
+          height={42}
           alt=""
           onClick={() => {
             setIsNavExpanded(!isNavExpanded);
@@ -65,7 +65,7 @@ const Navbar = () => {
           src={navImg}
         ></Image>
         <Image
-          width={120}
+          width={100}
           alt=""
           className="hover:scale-125"
           src={brandImg}

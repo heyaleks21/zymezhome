@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <>
       <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 xl:scale-75">
-        <div className="flex w-10/12 flex-col items-center justify-start gap-5">
+        <div className="flex flex-col items-center justify-start gap-5">
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Services
           </h1>
@@ -48,7 +48,7 @@ const Services = () => {
               </div>
             </div>
             <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/60 shadow-lg transition-all duration-500  [transform-style:preserve-3d]  hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-56 xl:w-56">
-              <p className="font-semibold">Data solutions</p>
+              <p className="font-semibold">Databpn solutions</p>
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-normal lg:text-base lg:font-semibold">
@@ -100,11 +100,11 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center">
-            <Link href="#contact">
-              <Image alt="" src={topImg} className="rotate-180"></Image>
-            </Link>
-          </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link href="#contact">
+            <Image alt="" src={topImg} className="rotate-180"></Image>
+          </Link>
         </div>
       </div>
     </>

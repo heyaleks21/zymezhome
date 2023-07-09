@@ -172,7 +172,7 @@ const Contact = () => {
               name="message"
               id="message"
               required
-              rows={4}
+              rows={5}
             />
 
             <button

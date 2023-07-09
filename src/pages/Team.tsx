@@ -14,15 +14,17 @@ const Team = () => {
             <span className="text-[var(--color4)]"> team</span>
           </h1>
           <div className="pt-2 text-center text-2xl text-[var(--text-color)]">
-            For over a decade, we&apos;ve collaborated to build innovative tools
-            and solutions, demonstrating a deep appreciation for software
-            applications.
+            Over a decade of experience
           </div>
-
+          <div className="w-full text-center text-[var(--text-color)] xl:w-2/4">
+            Strategically driving conversions, engaging customers, and
+            delivering exceptional business results, setting you apart from the
+            competition.
+          </div>
           <div className="flex flex-col items-center justify-center"></div>
         </div>
         <div className="flex w-full flex-row flex-wrap items-center justify-center gap-12">
-          <div className="group h-40 w-40 [perspective:1000px] lg:h-48 lg:w-48 xl:h-60 xl:w-60">
+          <div className="group h-40 w-40 [perspective:1000px] lg:h-48 lg:w-48 xl:h-52 xl:w-52">
             <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <Image
@@ -33,16 +35,14 @@ const Team = () => {
               </div>
               <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-12 text-center text-slate-200 [backface-visibility:hidden] [transform:rotateY(180deg)]">
                 <div className="flex min-h-full flex-col items-center justify-center">
-                  <h1 className="text-3xl font-bold">Anthony Dinino</h1>
-                  <div className="text-lg">CEO & President</div>
-                  <div className="hidden xl:flex">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                  </div>
+                  <h1 className="text-2xl font-semibold">Anthony Dinino</h1>
+                  <div className="text-md">CEO</div>
+                  <div className="hidden text-sm xl:flex">fuck fat bitches</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="group h-40 w-40 [perspective:1000px] lg:h-48 lg:w-48 xl:h-60 xl:w-60">
+          <div className="group h-40 w-40 [perspective:1000px] lg:h-48 lg:w-48 xl:h-52 xl:w-52">
             <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <Image
@@ -53,16 +53,16 @@ const Team = () => {
               </div>
               <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-12 text-center text-slate-200 [backface-visibility:hidden] [transform:rotateY(180deg)]">
                 <div className="flex min-h-full flex-col items-center justify-center">
-                  <h1 className="text-3xl font-bold">Calum Treloar</h1>
-                  <div className="text-lg">CEO & President</div>
-                  <div className="hidden xl:flex">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  <h1 className="text-2xl font-semibold">Calum Treloar</h1>
+                  <div className="text-md">CEO</div>
+                  <div className="hidden text-sm xl:flex">
+                    who are these people
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="group h-40 w-40 [perspective:1000px] lg:h-48 lg:w-48 xl:h-60 xl:w-60">
+          <div className="group h-40 w-40 [perspective:1000px] lg:h-48 lg:w-48 xl:h-52 xl:w-52">
             <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <Image
@@ -73,10 +73,10 @@ const Team = () => {
               </div>
               <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-12 text-center text-slate-200 [backface-visibility:hidden] [transform:rotateY(180deg)]">
                 <div className="flex min-h-full flex-col items-center justify-center">
-                  <h1 className="text-3xl font-bold">Aleks Manevski</h1>
-                  <div className="text-lg">CEO & President</div>
-                  <div className="hidden xl:flex">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  <h1 className="text-2xl font-semibold">Aleks Manevski</h1>
+                  <div className="text-md">CEO</div>
+                  <div className="hidden text-sm xl:flex">
+                    no no shutup weed healthy
                   </div>
                 </div>
               </div>

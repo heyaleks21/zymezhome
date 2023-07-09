@@ -12,7 +12,7 @@ const Landing = () => {
           <div className="pt-2 text-center text-2xl text-[var(--text-color)]">
             Driving Efficiency, Maximizing Impact
           </div>
-          <div className="w-full text-center text-[var(--text-color)] md:w-2/4">
+          <div className="w-10/12 text-center text-[var(--text-color)] xl:w-2/4">
             Elevate your business today: work with Australia&apos;s Leading
             Provider of Exceptional Software Development and Support Services.
           </div>

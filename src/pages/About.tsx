@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 lg:scale-100 lg:flex-row lg:flex-row ">
-        <div className="flex w-10/12 flex-col items-center justify-start gap-4 lg:w-4/12">
+        <div className="flex w-10/12 flex-col items-center justify-start gap-4 lg:w-5/12">
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Our directive
           </h1>
@@ -41,7 +41,7 @@ const About = () => {
         </div>
         <div className="flex w-10/12 flex-col items-center justify-start gap-4 lg:w-4/12">
           <div className="flex flex-row flex-wrap items-center justify-center gap-4">
-            <div className="hover:text-none flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/70 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-48 lg:w-48 xl:h-52 xl:w-52">
+            <div className="hover:text-none flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/70 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-48 xl:w-48">
               <p className="font-semibold">High-quality code</p>
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
@@ -51,7 +51,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/60 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-48 lg:w-48 xl:h-52 xl:w-52">
+            <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/60 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-48 xl:w-48">
               <p className="font-semibold">Full-stack teams</p>
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
@@ -63,7 +63,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex flex-row flex-wrap items-center justify-center gap-4">
-            <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/50 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-48 lg:w-48 xl:h-52 xl:w-52">
+            <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/50 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-48 xl:w-48">
               <p className="font-semibold">Agile approach</p>
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg  [backface-visibility:hidden] [transform:rotateX(180deg)]">
@@ -73,7 +73,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/30 shadow-lg transition-all duration-500  [transform-style:preserve-3d]  hover:[transform:rotateX(180deg)] lg:h-48 lg:w-48 xl:h-52 xl:w-52">
+            <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/30 shadow-lg transition-all duration-500  [transform-style:preserve-3d]  hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-48 xl:w-48">
               <p className="font-semibold">Flexibility</p>
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">

@@ -32,7 +32,7 @@ export default function Home() {
         <div id="services"></div>
         <Services />
         <div id="contact"></div>
-        <Contact />
+
         <Footer />
       </main>
     </>

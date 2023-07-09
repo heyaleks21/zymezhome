@@ -88,7 +88,7 @@ const Contact = () => {
               <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                 Speak with
               </h1>
-              <h1 className="flex-col items-center justify-center pb-3 text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
+              <h1 className="flex-col items-center justify-center pb-2 text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                 an
                 <span className="text-[var(--color3)]"> expert</span>
               </h1>

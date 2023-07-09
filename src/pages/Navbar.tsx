@@ -39,14 +39,14 @@ const Navbar = () => {
           <Link className="font-semibold hover:text-[--color3]" href="#about">
             About
           </Link>
+          <Link className="font-semibold hover:text-[--color3]" href="#team">
+            Our Team
+          </Link>
           <Link
             className="font-semibold hover:text-[--color3]"
             href="#services"
           >
             Services
-          </Link>
-          <Link className="font-semibold hover:text-[--color3]" href="#team">
-            Our Team
           </Link>
           <Link
             className="font-semibold hover:text-[var(--color3)]"
@@ -103,16 +103,17 @@ const Navbar = () => {
           </Link>
           <Link
             className="font-semibold hover:text-[var(--color3)]"
-            href="#services"
-          >
-            Services
-          </Link>
-          <Link
-            className="font-semibold hover:text-[var(--color3)]"
             href="#team"
           >
             Our Team
           </Link>
+          <Link
+            className="font-semibold hover:text-[var(--color3)]"
+            href="#services"
+          >
+            Services
+          </Link>
+
           <Link
             className="font-semibold hover:text-[var(--color3)]"
             href="#contact"

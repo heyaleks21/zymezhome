@@ -53,7 +53,7 @@ const Carousel = () => {
             <Image
               alt=""
               src={topImg}
-              className="mt-67 rotate-180 pb-8"
+              className="mt-67 rotate-180 pb-7"
             ></Image>
           </Link>
         </div>

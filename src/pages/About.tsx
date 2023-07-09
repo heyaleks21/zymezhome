@@ -57,7 +57,7 @@ const About = () => {
             <div className="h-2.5 w-10/12 rounded-full bg-black/50"></div>
           </div>
           <div className="mb-1 text-base font-medium text-[var(--text-color)]">
-            Database solutions
+            Data solutions
           </div>
           <div className="mb-4 h-2.5 w-full rounded-full bg-[#ff8000]">
             <div className="h-2.5 w-9/12 rounded-full bg-black/50"></div>

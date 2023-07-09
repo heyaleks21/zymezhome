@@ -7,6 +7,7 @@ import Services from "./Services";
 import Footer from "./Footer";
 import TopButton from "./TopButton";
 import Contact from "./Contact";
+import Carousel from "./Carousel";
 
 export default function Home() {
   return (
@@ -30,6 +31,8 @@ export default function Home() {
         <Services />
         <div id="contact"></div>
         <Contact />
+        <div id="portfolio"></div>
+        <Carousel />
         <Footer />
       </main>
     </>

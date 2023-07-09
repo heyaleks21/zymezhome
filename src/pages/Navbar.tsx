@@ -54,6 +54,12 @@ const Navbar = () => {
           >
             Contact
           </Link>
+          <Link
+            className="font-semibold hover:text-[var(--color3)]"
+            href="#portfolio"
+          >
+            Portfolio
+          </Link>
         </div>
         <Image
           height={42}
@@ -113,12 +119,17 @@ const Navbar = () => {
           >
             Services
           </Link>
-
           <Link
             className="font-semibold hover:text-[var(--color3)]"
             href="#contact"
           >
             Contact
+          </Link>
+          <Link
+            className="font-semibold hover:text-[var(--color3)]"
+            href="#portfolio"
+          >
+            Portfolio
           </Link>
         </div>
       )}

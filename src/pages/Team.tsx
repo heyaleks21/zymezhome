@@ -86,7 +86,7 @@ const Team = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <Link href="#team">
+          <Link href="#services">
             <Image alt="" src={topImg} className="rotate-180"></Image>
           </Link>
         </div>

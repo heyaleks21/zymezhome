@@ -1,8 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import arrowImg from "/public/assets/right-arrow.png";
 import Link from "next/link";
 import topImg from "/public/assets/upload.png";
+
+import webImg from "/public/assets/web.png";
+import appImg from "/public/assets/app.png";
+import hostImg from "/public/assets/hosting.png";
+import dataImg from "/public/assets/database.png";
+import marketImg from "/public/assets/marketing.png";
+import analImg from "/public/assets/analytics.png";
+import monitorImg from "/public/assets/monitoring.png";
+import aiImg from "/public/assets/ai.png";
 
 const Services = () => {
   return (
@@ -19,7 +27,7 @@ const Services = () => {
             <div className="flex flex-col flex-wrap items-center justify-center gap-4 sm:flex-row">
               <div className="hover:text-none flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/90 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-52 xl:w-52">
                 <p className="font-semibold">Web design</p>
-                <Image alt="" className="" src={arrowImg}></Image>
+                <Image alt="" className="" src={webImg}></Image>
                 <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                   <p className="text-xs font-semibold lg:text-base lg:font-semibold">
                     Customized, responsive and mobile-friendly web design for
@@ -29,7 +37,7 @@ const Services = () => {
               </div>
               <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/80 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-52 xl:w-52">
                 <p className="font-semibold">App development</p>
-                <Image alt="" className="" src={arrowImg}></Image>
+                <Image alt="" className="" src={appImg}></Image>
                 <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                   <p className="text-xs font-normal lg:text-base lg:font-semibold">
                     Native mobile app development for iOS and Android platforms,
@@ -40,7 +48,7 @@ const Services = () => {
 
               <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/70 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-52 xl:w-52">
                 <p className="font-semibold">Managed hosting</p>
-                <Image alt="" className="" src={arrowImg}></Image>
+                <Image alt="" className="" src={hostImg}></Image>
                 <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg  [backface-visibility:hidden] [transform:rotateX(180deg)]">
                   <p className="text-xs font-normal lg:text-base lg:font-semibold">
                     Scalable hosting infrastructure that adapts to your business
@@ -50,7 +58,7 @@ const Services = () => {
               </div>
               <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/60 shadow-lg transition-all duration-500  [transform-style:preserve-3d]  hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-52 xl:w-52">
                 <p className="font-semibold">Data solutions</p>
-                <Image alt="" className="" src={arrowImg}></Image>
+                <Image alt="" className="" src={dataImg}></Image>
                 <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                   <p className="text-xs font-normal lg:text-base lg:font-semibold">
                     Data migration and integration services to seamlessly
@@ -62,7 +70,7 @@ const Services = () => {
             <div className="flex flex-col flex-wrap items-center justify-center gap-4 sm:flex-row">
               <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/50 shadow-lg transition-all duration-500  [transform-style:preserve-3d]  hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-52 xl:w-52">
                 <p className="font-semibold">Marketing</p>
-                <Image alt="" className="" src={arrowImg}></Image>
+                <Image alt="" className="" src={marketImg}></Image>
                 <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                   <p className="text-xs font-normal lg:text-base lg:font-semibold">
                     Comprehensive digital marketing strategies to increase brand
@@ -72,7 +80,7 @@ const Services = () => {
               </div>
               <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/40 shadow-lg transition-all duration-500  [transform-style:preserve-3d]  hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-52 xl:w-52">
                 <p className="font-semibold">Analytics</p>
-                <Image alt="" className="" src={arrowImg}></Image>
+                <Image alt="" className="" src={analImg}></Image>
                 <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                   <p className="text-xs font-normal lg:text-base lg:font-semibold">
                     Data analytics services to uncover valuable insights from
@@ -82,7 +90,7 @@ const Services = () => {
               </div>
               <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/30 shadow-lg transition-all duration-500  [transform-style:preserve-3d]  hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-52 xl:w-52">
                 <p className="font-semibold">AI integration</p>
-                <Image alt="" className="" src={arrowImg}></Image>
+                <Image alt="" className="" src={aiImg}></Image>
                 <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                   <p className="text-xs font-normal lg:text-base lg:font-semibold">
                     AI-driven automation solutions to streamline business
@@ -91,8 +99,8 @@ const Services = () => {
                 </div>
               </div>
               <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/20 shadow-lg transition-all duration-500  [transform-style:preserve-3d]  hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-52 xl:w-52">
-                <p className="font-semibold">Support services</p>
-                <Image alt="" className="" src={arrowImg}></Image>
+                <p className="font-semibold">Realtime monitoring</p>
+                <Image alt="" className="" src={monitorImg}></Image>
                 <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                   <p className="text-xs font-normal lg:text-base lg:font-semibold">
                     System monitoring and performance optimization to

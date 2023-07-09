@@ -28,8 +28,8 @@ const Navbar = () => {
       <nav
         className={
           navColor
-            ? "fixed top-0 z-50 flex h-20 w-full items-center justify-around bg-[var(--color5)] p-5 text-[var(--text-color)] transition duration-300  ease-in-out"
-            : "fixed top-0 z-50 flex h-20 w-full items-center justify-around bg-white/40 p-5 text-[var(--color5)] transition duration-300 ease-in-out"
+            ? "fixed top-0 z-50 flex h-20 w-full items-center justify-around bg-[var(--color5)] text-[var(--text-color)] transition duration-300 ease-in-out"
+            : "fixed top-0 z-50 flex h-20 w-full items-center justify-around bg-white/40 text-[var(--color5)] transition duration-300 ease-in-out"
         }
       >
         <div className="text hidden gap-12 md:flex md:flex-row">

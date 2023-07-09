@@ -24,12 +24,12 @@ const Carousel = () => {
 
   return (
     <>
-      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-8 xl:scale-100">
-        <div className="flex flex-col items-center justify-start gap-5">
+      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-7 xl:scale-100">
+        <div className="flex flex-col items-center justify-start gap-4">
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Portfolio
           </h1>
-          <p className="text-[var(--color4) flex flex pb-8 text-center text-2xl font-semibold">
+          <p className="text-[var(--color4) flex flex text-center text-2xl font-semibold">
             Check out our recent work
           </p>
         </div>

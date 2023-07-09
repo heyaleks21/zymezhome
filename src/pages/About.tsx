@@ -6,7 +6,7 @@ import arrowImg from "/public/assets/right-arrow.png";
 const About = () => {
   return (
     <>
-      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 lg:flex-row lg:flex-row xl:scale-100 ">
+      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 lg:scale-100 lg:flex-row lg:flex-row ">
         <div className="flex w-10/12 flex-col items-center justify-start gap-4 lg:w-4/12">
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Our directive

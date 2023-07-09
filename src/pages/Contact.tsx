@@ -8,14 +8,14 @@ const Contact = () => {
       <>
         <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 lg:flex-row lg:flex-row xl:scale-100">
           <div className="pl:0 flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12 2xl:pl-52">
-            <div className="flex flex-col items-center justify-center gap-4 rounded rounded bg-black/20 px-9 pt-7">
+            <div className="flex flex-col items-center justify-center gap-4 rounded rounded bg-[var(--color5)] px-9 pt-7">
               <div className="">
                 <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                   Speak with
                 </h1>
                 <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                   an
-                  <span className="text-[var(--color4)]"> expert</span>
+                  <span className="text-[var(--color3)]"> expert</span>
                 </h1>
               </div>
 
@@ -77,16 +77,16 @@ const Contact = () => {
 
   return (
     <>
-      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 lg:flex-row lg:flex-row xl:scale-100">
-        <div className="pl:0 flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12 2xl:pl-52">
-          <div className="flex flex-col items-center justify-center gap-4 rounded rounded bg-black/30 px-9 pt-7">
+      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 lg:scale-100 lg:flex-row lg:flex-row">
+        <div className="flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12 2xl:pl-52">
+          <div className="flex flex-col items-center justify-center gap-4 rounded rounded bg-[var(--color5)] px-9 pt-7">
             <div className="">
               <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                 Speak with
               </h1>
               <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                 an
-                <span className="text-[var(--color4)]"> expert</span>
+                <span className="text-[var(--color3)]"> expert</span>
               </h1>
             </div>
 
@@ -117,20 +117,20 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="pr:02 flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12 2xl:pr-52">
+        <div className="flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12 2xl:pr-52">
           <form
             onSubmit={handleSubmit}
-            className="flex flex-col items-center justify-center gap-3 rounded bg-black/30 px-5 pt-3"
+            className="flex flex-col items-center justify-center gap-3 rounded bg-[var(--color5)] px-5 pt-3"
           >
             <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
-              Let&apos;s chat
+              Let&apos;s <span className="text-[var(--color3)]">chat</span>
             </h1>
-            <p className="text-[var(--color4) text-md flex flex pb-1 text-center font-semibold">
+            <p className="textmd flex flex pb-1 text-center font-semibold text-[var(--text-color)]">
               24x7 support, we&apos;re here to help
             </p>
 
             <input
-              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              className="w-full rounded bg-white/40 px-1 text-[var(--text-color)] placeholder-white/50"
               type="text"
               placeholder="Name"
               name="name"
@@ -138,7 +138,7 @@ const Contact = () => {
               required
             ></input>
             <input
-              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              className="w-full rounded bg-white/40 px-1 text-[var(--text-color)] placeholder-white/50"
               type="email"
               placeholder="Email"
               name="email"
@@ -146,28 +146,28 @@ const Contact = () => {
               required
             ></input>
             <input
-              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              className="w-full rounded bg-white/40 px-1 text-[var(--text-color)] placeholder-white/50"
               type="number"
               placeholder="Phone"
               name="phone"
               id="phone"
             ></input>
             <input
-              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              className="w-full rounded bg-white/40 px-1 text-[var(--text-color)] placeholder-white/50"
               type="text"
               placeholder="Website"
               name="website"
               id="website"
             ></input>
             <input
-              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              className="w-full rounded bg-white/40 px-1 text-[var(--text-color)] placeholder-white/50"
               type="text"
               placeholder="Organisation"
               name="org"
               id="org"
             ></input>
             <textarea
-              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              className="w-full rounded bg-white/40 px-1 text-[var(--text-color)] placeholder-white/50"
               placeholder="Message..."
               name="message"
               id="message"
@@ -178,7 +178,7 @@ const Contact = () => {
             <button
               disabled={state.submitting}
               type="submit"
-              className="rounded-full bg-white/30 px-2.5 py-0.5 font-semibold text-white transition duration-300 ease-in-out hover:scale-110 hover:bg-[var(--color3)]"
+              className="rounded-full bg-white/40 px-2.5 py-0.5 font-semibold text-[var(--text-color)] transition duration-300 ease-in-out hover:scale-110 hover:bg-[var(--color3)]"
             >
               Send
             </button>

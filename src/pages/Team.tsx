@@ -7,7 +7,7 @@ import anth from "/public/assets/anth.webp";
 const Team = () => {
   return (
     <>
-      <div className="min-w-screen 3xl:scale-100 flex min-h-screen scale-75 flex-col items-center justify-center gap-12">
+      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 xl:scale-100">
         <div className="flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12">
           <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Meet our

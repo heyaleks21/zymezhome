@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 import Landing from "./Landing";
 import About from "./About";
 import Team from "./Team";
-import Contact from "./Contact";
+
 import Services from "./Services";
 import Footer from "./Footer";
 import TopButton from "./TopButton";

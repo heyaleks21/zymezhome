@@ -29,7 +29,7 @@ const Carousel = () => {
             Portfolio
           </h1>
           <p className="text-[var(--color4) flex flex pb-4 text-center text-2xl font-semibold">
-            Check out some of our recent work
+            Check out our recent work
           </p>
         </div>
         <div className="flex flex-row items-center justify-start gap-5">

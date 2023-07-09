@@ -21,8 +21,8 @@ const Services = () => {
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-semibold lg:text-base lg:font-semibold">
-                  Professionally designed websites and applications that
-                  guarantee streamlined and resilient performance
+                  Customized, responsive and mobile-friendly web design for
+                  seamless user experience across devices
                 </p>
               </div>
             </div>
@@ -31,8 +31,8 @@ const Services = () => {
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-normal lg:text-base lg:font-semibold">
-                  Highly skilled experts proficient in both frontend and backend
-                  technologies, delivering robust solutions
+                  Native mobile app development for iOS and Android platforms,
+                  tailored to your business needs
                 </p>
               </div>
             </div>
@@ -42,8 +42,8 @@ const Services = () => {
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg  [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-normal lg:text-base lg:font-semibold">
-                  Flexible approach for smooth development, encouraging teamwork
-                  and quick iterations
+                  Scalable hosting infrastructure that adapts to your business
+                  growth and handles increased traffic
                 </p>
               </div>
             </div>
@@ -52,8 +52,8 @@ const Services = () => {
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-normal lg:text-base lg:font-semibold">
-                  Tailored designs and flexible workflows that can be customized
-                  to perfectly suit your specific needs
+                  Data migration and integration services to seamlessly transfer
+                  data between systems
                 </p>
               </div>
             </div>
@@ -64,8 +64,8 @@ const Services = () => {
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-normal lg:text-base lg:font-semibold">
-                  Tailored designs and flexible workflows that can be customized
-                  to perfectly suit your specific needs
+                  Comprehensive digital marketing strategies to increase brand
+                  awareness and drive targeted traffic
                 </p>
               </div>
             </div>
@@ -74,8 +74,8 @@ const Services = () => {
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-normal lg:text-base lg:font-semibold">
-                  Tailored designs and flexible workflows that can be customized
-                  to perfectly suit your specific needs
+                  Data analytics services to uncover valuable insights from your
+                  business data and improve decision-making
                 </p>
               </div>
             </div>
@@ -84,8 +84,8 @@ const Services = () => {
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-normal lg:text-base lg:font-semibold">
-                  Tailored designs and flexible workflows that can be customized
-                  to perfectly suit your specific needs
+                  AI-driven automation solutions to streamline business
+                  processes and reduce manual workloads
                 </p>
               </div>
             </div>
@@ -94,8 +94,8 @@ const Services = () => {
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                 <p className="text-xs font-normal lg:text-base lg:font-semibold">
-                  Tailored designs and flexible workflows that can be customized
-                  to perfectly suit your specific needs
+                  System monitoring and performance optimization to proactively
+                  identify and resolve issues
                 </p>
               </div>
             </div>

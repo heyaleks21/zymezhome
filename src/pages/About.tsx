@@ -6,10 +6,10 @@ import arrowImg from "/public/assets/right-arrow.png";
 const About = () => {
   return (
     <>
-      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 lg:scale-100 lg:flex-row lg:flex-row ">
+      <div className="min-w-screen flex min-h-screen scale-75 flex-wrap items-center justify-center lg:scale-100">
         <div className="flex w-10/12 flex-col items-center justify-start gap-4 lg:w-5/12">
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
-            Our directive
+            The Zymez Directive
           </h1>
 
           <div className="flex flex-col items-center gap-2">
@@ -40,12 +40,12 @@ const About = () => {
           </div>
         </div>
         <div className="flex w-10/12 flex-col items-center justify-start gap-4 lg:w-4/12">
-          <div className="flex flex-row flex-wrap items-center justify-center gap-4">
+          <div className="flex flex-row items-center justify-center gap-4">
             <div className="hover:text-none flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/70 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-48 xl:w-48">
               <p className="font-semibold">High-quality code</p>
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
-                <p className="text-xs font-semibold lg:text-base">
+                <p className="text-xs font-semibold lg:text-base lg:font-semibold">
                   Professionally designed websites and applications that
                   guarantee streamlined and resilient performance
                 </p>
@@ -55,19 +55,19 @@ const About = () => {
               <p className="font-semibold">Full-stack teams</p>
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
-                <p className="text-xs font-semibold lg:text-base ">
+                <p className="text-xs font-normal lg:text-base lg:font-semibold">
                   Highly skilled experts proficient in both frontend and backend
                   technologies, delivering robust solutions
                 </p>
               </div>
             </div>
           </div>
-          <div className="flex flex-row flex-wrap items-center justify-center gap-4">
+          <div className="flex flex-row items-center justify-center gap-4">
             <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/50 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-48 xl:w-48">
               <p className="font-semibold">Agile approach</p>
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg  [backface-visibility:hidden] [transform:rotateX(180deg)]">
-                <p className="text-xs font-semibold lg:text-base ">
+                <p className="text-xs font-normal lg:text-base lg:font-semibold">
                   Flexible approach for smooth development, encouraging teamwork
                   and quick iterations
                 </p>
@@ -77,7 +77,7 @@ const About = () => {
               <p className="font-semibold">Flexibility</p>
               <Image alt="" className="" src={arrowImg}></Image>
               <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
-                <p className="text-xs font-semibold lg:text-base ">
+                <p className="text-xs font-normal lg:text-base lg:font-semibold">
                   Tailored designs and flexible workflows that can be customized
                   to perfectly suit your specific needs
                 </p>

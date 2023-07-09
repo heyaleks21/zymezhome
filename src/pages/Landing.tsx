@@ -13,8 +13,8 @@ const Landing = () => {
             Identify. Solve. Excecute.
           </div>
           <div className="text-center text-[var(--text-color)]">
-            Elevate your business today: work with Australia&apos;s Leading
-            Provider of Exceptional Software Development and Support Services.
+            Supercharge your business with outstanding software development and
+            support services from Australia&apos;s trusted leader
           </div>
           <div className="flex flex-col items-center justify-center">
             <Link

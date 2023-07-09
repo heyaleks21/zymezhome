@@ -1,5 +1,9 @@
 import React from "react";
+import Image from "next/image";
 import { useForm } from "@formspree/react";
+import emailImg from "/public/assets/email.png";
+import phoneImg from "/public/assets/phone-call.png";
+import placeImg from "/public/assets/placeholder.png";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("meqbjadw");
@@ -21,7 +25,7 @@ const Contact = () => {
 
               <div className="flex flex-col items-center justify-center">
                 <p className="text-1xl flex flex-row items-center gap-1 pt-2 text-center font-semibold text-[var(--text-color)]">
-                  <img className="w-6" src="/assets/email.png"></img>
+                  <Image alt="" className="w-6" src={emailImg}></Image>
                   Email
                 </p>
                 <p className="text-1xl pt-2 text-center text-[var(--text-color)]">
@@ -30,7 +34,7 @@ const Contact = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <p className="text-1xl flex flex-row items-center gap-1 pt-2 text-center font-semibold text-[var(--text-color)]">
-                  <img className="w-6" src="/assets/phone-call.png"></img>Phone
+                  <Image alt="" className="w-6" src={phoneImg}></Image>Phone
                 </p>
                 <p className="text-1xl pt-2 text-center text-[var(--text-color)]">
                   +61 400 970 657
@@ -38,7 +42,7 @@ const Contact = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <p className="text-1xl flex flex-row items-center gap-1 pt-2 text-center font-semibold text-[var(--text-color)]">
-                  <img className="w-6" src="/assets/placeholder.png"></img>Home
+                  <Image alt="" className="w-6" src={placeImg}></Image>Home
                 </p>
                 <p className="text-1xl pb-9 pt-2 text-center text-[var(--text-color)]">
                   Adelaide, South Australia
@@ -92,7 +96,7 @@ const Contact = () => {
 
             <div className="flex flex-col items-center justify-center">
               <p className="text-1xl flex flex-row items-center gap-1 pt-2 text-center font-semibold text-[var(--text-color)]">
-                <img className="w-6" src="/assets/email.png"></img>
+                <Image alt="" className="w-6" src={emailImg}></Image>
                 Email
               </p>
               <p className="text-1xl pt-2 text-center text-[var(--text-color)]">
@@ -101,7 +105,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="text-1xl flex flex-row items-center gap-1 pt-2 text-center font-semibold text-[var(--text-color)]">
-                <img className="w-6" src="/assets/phone-call.png"></img>Phone
+                <Image alt="" className="w-6" src={phoneImg}></Image>Phone
               </p>
               <p className="text-1xl pt-2 text-center text-[var(--text-color)]">
                 +61 400 970 657
@@ -109,7 +113,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="text-1xl flex flex-row items-center gap-1 pt-2 text-center font-semibold text-[var(--text-color)]">
-                <img className="w-6" src="/assets/placeholder.png"></img>Home
+                <Image alt="" className="w-6" src={placeImg}></Image>Home
               </p>
               <p className="text-1xl pb-9 pt-2 text-center text-[var(--text-color)]">
                 Adelaide, South Australia

@@ -24,7 +24,7 @@ const Carousel = () => {
 
   return (
     <>
-      <div className="min-w-screen flex min-h-screen flex-col items-center justify-center">
+      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-8 xl:scale-100">
         <div className="flex flex-col items-center justify-start gap-5">
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Portfolio
@@ -38,7 +38,7 @@ const Carousel = () => {
             <Image className="-rotate-90" src={topImg} alt="" />
           </button>
           <Image
-            className="w-60 rounded bg-cover object-cover lg:w-96"
+            className="w-96 rounded bg-cover object-cover"
             alt=""
             src={images[index] as StaticImageData}
           />
@@ -50,11 +50,7 @@ const Carousel = () => {
         </div>
         <div className="flex items-center justify-center">
           <Link href="#contact">
-            <Image
-              alt=""
-              src={topImg}
-              className="mt-67 rotate-180 pb-7"
-            ></Image>
+            <Image alt="" src={topImg} className="mt-67 rotate-180"></Image>
           </Link>
         </div>
       </div>

@@ -135,7 +135,6 @@ const Contact = () => {
               placeholder="Name"
               name="name"
               id="name"
-              required
             ></input>
             <input
               className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"

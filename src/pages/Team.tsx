@@ -9,11 +9,11 @@ const Team = () => {
             Meet our
             <span className="text-[var(--color4)]"> team</span>
           </h1>
-          <p className="pt-2 text-center text-2xl text-[var(--text-color)]">
+          <div className="pt-2 text-center text-2xl text-[var(--text-color)]">
             For over a decade, we've collaborated to build innovative tools and
             solutions, demonstrating a deep appreciation for software
             applications.
-          </p>
+          </div>
 
           <div className="flex flex-col items-center justify-center"></div>
         </div>
@@ -29,10 +29,10 @@ const Team = () => {
               <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-12 text-center text-slate-200 [backface-visibility:hidden] [transform:rotateY(180deg)]">
                 <div className="flex min-h-full flex-col items-center justify-center">
                   <h1 className="text-3xl font-bold">Anthony Dinino</h1>
-                  <p className="text-lg">CEO & President</p>
-                  <p className="hidden xl:flex">
+                  <div className="text-lg">CEO & President</div>
+                  <div className="hidden xl:flex">
                     Lorem ipsum dolor sit amet consectetur adipisicing.
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -48,10 +48,10 @@ const Team = () => {
               <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-12 text-center text-slate-200 [backface-visibility:hidden] [transform:rotateY(180deg)]">
                 <div className="flex min-h-full flex-col items-center justify-center">
                   <h1 className="text-3xl font-bold">Calum Treloar</h1>
-                  <p className="text-lg">CEO & President</p>
-                  <p className="hidden xl:flex">
+                  <div className="text-lg">CEO & President</div>
+                  <div className="hidden xl:flex">
                     Lorem ipsum dolor sit amet consectetur adipisicing.
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -67,10 +67,10 @@ const Team = () => {
               <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-12 text-center text-slate-200 [backface-visibility:hidden] [transform:rotateY(180deg)]">
                 <div className="flex min-h-full flex-col items-center justify-center">
                   <h1 className="text-3xl font-bold">Aleks Manevski</h1>
-                  <p className="text-lg">CEO & President</p>
-                  <p className="hidden xl:flex">
+                  <div className="text-lg">CEO & President</div>
+                  <div className="hidden xl:flex">
                     Lorem ipsum dolor sit amet consectetur adipisicing.
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>

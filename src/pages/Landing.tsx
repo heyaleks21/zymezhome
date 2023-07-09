@@ -9,13 +9,13 @@ const Landing = () => {
             Welcome to
             <span className="text-[var(--color4)]"> Zymez</span>
           </h1>
-          <p className="pt-2 text-center text-2xl text-[var(--text-color)]">
+          <div className="pt-2 text-center text-2xl text-[var(--text-color)]">
             Driving Efficiency, Maximizing Impact
-          </p>
-          <p className="w-full text-center text-[var(--text-color)] md:w-2/4">
+          </div>
+          <div className="w-full text-center text-[var(--text-color)] md:w-2/4">
             Elevate your business today: work with Australia's Leading Provider
             of Exceptional Software Development and Support Services.
-          </p>
+          </div>
           <div className="flex flex-col items-center justify-center">
             <Link
               href="#about"

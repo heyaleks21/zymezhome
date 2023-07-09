@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useForm, ValidationError } from "@formspree/react";
+import React from "react";
+import { useForm } from "@formspree/react";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("meqbjadw");
@@ -118,22 +118,69 @@ const Contact = () => {
           </div>
         </div>
         <div className="pr:02 flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12 2xl:pr-52">
-          <form onSubmit={handleSubmit}>
-            <label htmlFor="email">Email Address</label>
-            <input id="email" type="email" name="email" />
-            <ValidationError
-              prefix="Email"
-              field="email"
-              errors={state.errors}
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col items-center justify-center gap-3 rounded bg-black/30 px-5 pt-3"
+          >
+            <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
+              Let&apos;s chat
+            </h1>
+            <p className="text-[var(--color4) text-md flex flex pb-1 text-center font-semibold">
+              24x7 support, we&apos;re here to help
+            </p>
+
+            <input
+              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              type="text"
+              placeholder="Name"
+              name="name"
+              id="name"
+              required
+            ></input>
+            <input
+              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              type="email"
+              placeholder="Email"
+              name="email"
+              id="email"
+              required
+            ></input>
+            <input
+              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              type="number"
+              placeholder="Phone"
+              name="phone"
+              id="phone"
+            ></input>
+            <input
+              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              type="text"
+              placeholder="Website"
+              name="website"
+              id="website"
+            ></input>
+            <input
+              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              type="text"
+              placeholder="Organisation"
+              name="org"
+              id="org"
+            ></input>
+            <textarea
+              className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
+              placeholder="Message..."
+              name="message"
+              id="message"
+              required
+              rows={4}
             />
-            <textarea id="message" name="message" />
-            <ValidationError
-              prefix="Message"
-              field="message"
-              errors={state.errors}
-            />
-            <button type="submit" disabled={state.submitting}>
-              Submit
+
+            <button
+              disabled={state.submitting}
+              type="submit"
+              className="rounded-full bg-white/30 px-2.5 py-0.5 font-semibold text-white transition duration-300 ease-in-out hover:scale-110 hover:bg-[var(--color3)]"
+            >
+              Send
             </button>
           </form>
         </div>

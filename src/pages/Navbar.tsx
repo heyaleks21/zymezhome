@@ -28,11 +28,11 @@ const Navbar = () => {
       <nav
         className={
           navColor
-            ? "fixed top-0 z-50 flex h-20 w-full items-center justify-around bg-[var(--color5)] text-[var(--text-color)] transition duration-300  ease-in-out"
-            : "fixed top-0 z-50 flex h-20 w-full items-center justify-around bg-white/40 text-[var(--color5)] transition duration-300 ease-in-out"
+            ? "fixed top-0 z-50 flex h-20 w-full items-center justify-around bg-[var(--color5)] p-5 text-[var(--text-color)] transition duration-300  ease-in-out"
+            : "fixed top-0 z-50 flex h-20 w-full items-center justify-around bg-white/40 p-5 text-[var(--color5)] transition duration-300 ease-in-out"
         }
       >
-        <div className="text hidden md:flex md:flex-row  md:gap-12">
+        <div className="text hidden gap-12 md:flex md:flex-row">
           <Link className="font-semibold hover:text-[--color3]" href="#home">
             Home
           </Link>
@@ -48,12 +48,7 @@ const Navbar = () => {
           >
             Services
           </Link>
-          <Link
-            className="font-semibold hover:text-[var(--color3)]"
-            href="#contact"
-          >
-            Contact
-          </Link>
+
           <Link
             className="font-semibold hover:text-[var(--color3)]"
             href="#portfolio"
@@ -84,7 +79,7 @@ const Navbar = () => {
               : "text-semibold my-2 rounded-full bg-white/10 px-4 py-2 font-semibold text-[var(--color5)] transition duration-300 ease-in-out hover:scale-110 hover:bg-[var(--color3)]"
           }
         >
-          Book Now
+          Contact Us
         </Link>
       </nav>
       {isNavExpanded == true && (
@@ -119,12 +114,7 @@ const Navbar = () => {
           >
             Services
           </Link>
-          <Link
-            className="font-semibold hover:text-[var(--color3)]"
-            href="#contact"
-          >
-            Contact
-          </Link>
+
           <Link
             className="font-semibold hover:text-[var(--color3)]"
             href="#portfolio"

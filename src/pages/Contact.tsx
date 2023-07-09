@@ -123,10 +123,10 @@ const Contact = () => {
             className="flex flex-col items-center justify-center gap-3 rounded bg-black/30 px-5 pt-3"
           >
             <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
-              Let's chat
+              Let&apos;s chat
             </h1>
             <p className="text-[var(--color4) text-md flex flex pb-1 text-center font-semibold">
-              24x7 support, we're here to help
+              24x7 support, we&apos;re here to help
             </p>
 
             <input
@@ -178,6 +178,7 @@ const Contact = () => {
               id="message"
               required
               errors={state.errors}
+              rows={4}
             />
 
             <button

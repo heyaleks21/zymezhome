@@ -129,8 +129,8 @@ const Contact = () => {
             <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
               Let&apos;s <span className="text-[var(--color3)]">chat</span>
             </h1>
-            <p className="textmd flex flex pb-1 text-center font-semibold text-[var(--text-color)]">
-              24x7 support, we&apos;re here to help
+            <p className="textmd flex flex px-16 pb-1 text-center font-semibold text-[var(--text-color)]">
+              We&apos;re here to help
             </p>
 
             <input

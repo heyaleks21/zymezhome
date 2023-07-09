@@ -14,7 +14,7 @@ const About = () => {
 
           <div className="flex flex-col items-center gap-2">
             <p className="text-[var(--color4) flex flex text-center text-2xl font-semibold">
-              Identify. Solve. Excecute.
+              Driving efficiency, maximizing impact
             </p>
             <p className="mb-1 mt-2 text-center text-sm text-[var(--text-color)] sm:text-base">
               Based in South Australia, Zymez specializes in delivering

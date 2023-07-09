@@ -6,7 +6,7 @@ import arrowImg from "/public/assets/right-arrow.png";
 const About = () => {
   return (
     <>
-      <div className="min-w-screen flex min-h-screen scale-75 flex-wrap items-center justify-center gap-20 lg:scale-100">
+      <div className="min-w-screen flex min-h-screen scale-75 flex-wrap items-center justify-center gap-12 lg:scale-100 xl:gap-56">
         <div className="flex w-96 flex-col items-center justify-start gap-4">
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Our Story
@@ -39,50 +39,54 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="flex w-96 flex-col items-center justify-start gap-4">
-          <div className="flex flex-row items-center justify-center gap-4">
-            <div className="hover:text-none flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/70 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-48 xl:w-48">
-              <p className="font-semibold">High-quality code</p>
-              <Image alt="" className="" src={arrowImg}></Image>
-              <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
-                <p className="text-xs font-semibold lg:text-base lg:font-semibold">
-                  Professionally designed websites and applications that
-                  guarantee streamlined and resilient performance
-                </p>
-              </div>
-            </div>
-            <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/60 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-48 xl:w-48">
-              <p className="font-semibold">Full-stack teams</p>
-              <Image alt="" className="" src={arrowImg}></Image>
-              <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
-                <p className="text-xs font-normal lg:text-base lg:font-semibold">
-                  Highly skilled experts proficient in both frontend and backend
-                  technologies, delivering robust solutions
-                </p>
-              </div>
-            </div>
+        <div className="flex w-96 flex-col items-center justify-start gap-2">
+          <div className="mb-1 mt-4 text-base font-medium text-[var(--text-color)]">
+            Web design
           </div>
-          <div className="flex flex-row items-center justify-center gap-4">
-            <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/50 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-48 xl:w-48">
-              <p className="font-semibold">Agile approach</p>
-              <Image alt="" className="" src={arrowImg}></Image>
-              <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg  [backface-visibility:hidden] [transform:rotateX(180deg)]">
-                <p className="text-xs font-normal lg:text-base lg:font-semibold">
-                  Flexible approach for smooth development, encouraging teamwork
-                  and quick iterations
-                </p>
-              </div>
-            </div>
-            <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/30 shadow-lg transition-all duration-500  [transform-style:preserve-3d]  hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-48 xl:w-48">
-              <p className="font-semibold">Flexibility</p>
-              <Image alt="" className="" src={arrowImg}></Image>
-              <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
-                <p className="text-xs font-normal lg:text-base lg:font-semibold">
-                  Tailored designs and flexible workflows that can be customized
-                  to perfectly suit your specific needs
-                </p>
-              </div>
-            </div>
+          <div className="mb-4 h-2.5 w-full rounded-full bg-[#ff8000]">
+            <div className="w-12/12 h-2.5 rounded-full bg-black/60"></div>
+          </div>
+          <div className="mb-1 text-base font-medium text-[var(--text-color)]">
+            App development
+          </div>
+          <div className="mb-4 h-2.5 w-full rounded-full bg-[#ff8000]">
+            <div className="h-2.5 w-11/12 rounded-full bg-black/60"></div>
+          </div>
+          <div className="mb-1 text-base font-medium text-[var(--text-color)]">
+            Managed hosting
+          </div>
+          <div className="mb-4 h-2.5 w-full rounded-full bg-[#ff8000]">
+            <div className="h-2.5 w-10/12 rounded-full bg-black/50"></div>
+          </div>
+          <div className="mb-1 text-base font-medium text-[var(--text-color)]">
+            Database solutions
+          </div>
+          <div className="mb-4 h-2.5 w-full rounded-full bg-[#ff8000]">
+            <div className="h-2.5 w-9/12 rounded-full bg-black/50"></div>
+          </div>
+          <div className="mb-1 text-base font-medium text-[var(--text-color)]">
+            Marketing
+          </div>
+          <div className="mb-4 h-2.5 w-full rounded-full bg-[#ff8000]">
+            <div className="h-2.5 w-8/12 rounded-full bg-black/40"></div>
+          </div>
+          <div className="mb-1 text-base font-medium text-[var(--text-color)]">
+            Analytics
+          </div>
+          <div className="mb-4 h-2.5 w-full rounded-full bg-[#ff8000]">
+            <div className="h-2.5 w-7/12 rounded-full bg-black/40"></div>
+          </div>
+          <div className="mb-1 text-base font-medium text-[var(--text-color)]">
+            AI integration
+          </div>
+          <div className="mb-4 h-2.5 w-full rounded-full bg-[#ff8000]">
+            <div className="h-2.5 w-7/12 rounded-full bg-black/30"></div>
+          </div>
+          <div className="mb-1 text-base font-medium text-[var(--text-color)]">
+            Support services
+          </div>
+          <div className="mb-4 h-2.5 w-full rounded-full bg-[#ff8000]">
+            <div className="h-2.5 w-7/12 rounded-full bg-black/30"></div>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@
 body {
   background-image: linear-gradient(var(--color3), var(--color2));
 }
-/* hi */
+
 @keyframes pageTransition {
   from {
     opacity: 0.5;

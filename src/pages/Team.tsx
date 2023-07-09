@@ -10,8 +10,8 @@ const Team = () => {
             <span className="text-[var(--color4)]"> team</span>
           </h1>
           <div className="pt-2 text-center text-2xl text-[var(--text-color)]">
-            For over a decade, we've collaborated to build innovative tools and
-            solutions, demonstrating a deep appreciation for software
+            For over a decade, we&apos;ve collaborated to build innovative tools
+            and solutions, demonstrating a deep appreciation for software
             applications.
           </div>
 

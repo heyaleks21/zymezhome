@@ -13,8 +13,8 @@ const Landing = () => {
             Driving Efficiency, Maximizing Impact
           </div>
           <div className="w-full text-center text-[var(--text-color)] md:w-2/4">
-            Elevate your business today: work with Australia's Leading Provider
-            of Exceptional Software Development and Support Services.
+            Elevate your business today: work with Australia&apos;s Leading
+            Provider of Exceptional Software Development and Support Services.
           </div>
           <div className="flex flex-col items-center justify-center">
             <Link

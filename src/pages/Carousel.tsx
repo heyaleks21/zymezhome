@@ -39,7 +39,7 @@ const Carousel = () => {
           <Image
             className="w-60 rounded bg-cover object-cover hover:bg-black/80 lg:w-96"
             alt=""
-            src={images[index]!}
+            src={test2}
           />
           <div>
             <button className="btn" onClick={handleNext}>

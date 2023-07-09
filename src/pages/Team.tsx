@@ -3,6 +3,8 @@ import Image from "next/image";
 import aleks from "/public/assets/aleks.png";
 import cal from "/public/assets/calum.png";
 import anth from "/public/assets/anth.webp";
+import Link from "next/link";
+import topImg from "/public/assets/upload.png";
 
 const Team = () => {
   return (
@@ -82,6 +84,11 @@ const Team = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link href="#team">
+            <Image alt="" src={topImg} className="rotate-180"></Image>
+          </Link>
         </div>
       </div>
     </>

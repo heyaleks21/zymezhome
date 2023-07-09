@@ -1,12 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import arrowImg from "/public/assets/right-arrow.png";
+import Link from "next/link";
+import topImg from "/public/assets/upload.png";
 
 const Services = () => {
   return (
     <>
       <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 xl:scale-75">
-        <div className="flex w-10/12 flex-col items-center justify-start gap-4">
+        <div className="flex w-10/12 flex-col items-center justify-start gap-5">
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Services
           </h1>
@@ -97,6 +99,11 @@ const Services = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="flex items-center justify-center">
+            <Link href="#team">
+              <Image alt="" src={topImg} className="rotate-180"></Image>
+            </Link>
           </div>
         </div>
       </div>

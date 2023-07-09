@@ -47,24 +47,24 @@ const Contact = () => {
             </div>
           </div>
           <div className="pr:02 flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12 2xl:pr-52">
-            <form className="flex flex-col items-center justify-center gap-3 rounded bg-black/30 px-5 pt-3">
+            <form className="flex w-96 flex-col items-center justify-center gap-3 rounded  bg-[var(--color5)] px-5 pt-3">
               <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                 What happens next?
               </h1>
-              <p className="text-[var(--color4) text-md flex flex pb-1 text-center font-semibold">
+              <p className="text-md flex flex pb-1 text-center font-semibold text-[var(--text-color)]">
                 1. A member of our team reaches out within a few hours to
                 organise a FREE consultation.
               </p>
-              <p className="text-[var(--color4) text-md flex flex pb-1 text-center font-semibold">
+              <p className="text-md flex flex pb-1 text-center font-semibold text-[var(--text-color)]">
                 2. Meanwhile, we sign an NDA to ensure the privacy and
                 protection of your idea.
               </p>
-              <p className="text-[var(--color4) text-md flex flex pb-1 text-center font-semibold">
+              <p className="text-md flex flex pb-1 text-center font-semibold text-[var(--text-color)]">
                 3. We will conduct a FREE consultation to understand your
                 business requirements and will answer any questions you may
                 have.
               </p>
-              <p className="text-[var(--color4) text-md flex flex pb-4 text-center font-semibold">
+              <p className="text-md flex flex pb-6 text-center font-semibold text-[var(--text-color)]">
                 4. Our expert strategist presents project estimates and
                 approximate timelines.
               </p>

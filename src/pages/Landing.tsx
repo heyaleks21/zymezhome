@@ -3,8 +3,8 @@ import Link from "next/link";
 const Landing = () => {
   return (
     <>
-      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 sm:scale-100 lg:flex-row lg:flex-row">
-        <div className="flex w-10/12 flex-col items-center justify-start gap-4 lg:w-4/12">
+      <div className="min-w-screen flex min-h-screen scale-75 items-center justify-center gap-12 sm:scale-100">
+        <div className="flex w-96 flex-col items-center justify-start gap-4">
           <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Welcome to
             <span className="text-[var(--color4)]"> Zymez</span>
@@ -12,7 +12,7 @@ const Landing = () => {
           <div className="pt-2 text-center text-2xl text-[var(--text-color)]">
             Driving Efficiency, Maximizing Impact
           </div>
-          <div className="w-10/12 text-center text-[var(--text-color)] xl:w-2/4">
+          <div className="text-center text-[var(--text-color)]">
             Elevate your business today: work with Australia&apos;s Leading
             Provider of Exceptional Software Development and Support Services.
           </div>

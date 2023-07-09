@@ -8,7 +8,7 @@ const Team = () => {
   return (
     <>
       <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 xl:scale-100">
-        <div className="flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12">
+        <div className="flex w-96 flex-col items-center justify-center gap-4">
           <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Meet our
             <span className="text-[var(--color4)]"> team</span>
@@ -16,7 +16,7 @@ const Team = () => {
           <div className="pt-2 text-center text-2xl text-[var(--text-color)]">
             Over a decade of experience
           </div>
-          <div className="w-full text-center text-[var(--text-color)] xl:w-2/4">
+          <div className="text-center text-[var(--text-color)]">
             Strategically driving conversions, engaging customers, and
             delivering exceptional business results, setting you apart from the
             competition.

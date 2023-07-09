@@ -6,8 +6,8 @@ import arrowImg from "/public/assets/right-arrow.png";
 const About = () => {
   return (
     <>
-      <div className="min-w-screen flex min-h-screen scale-75 flex-wrap items-center justify-center lg:scale-100">
-        <div className="flex w-10/12 flex-col items-center justify-start gap-4 lg:w-5/12">
+      <div className="min-w-screen flex min-h-screen scale-75 flex-wrap items-center justify-center gap-16 lg:scale-100 lg:gap-52">
+        <div className="flex w-96 flex-col items-center justify-start gap-4">
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             The Zymez Directive
           </h1>
@@ -16,13 +16,13 @@ const About = () => {
             <p className="text-[var(--color4) flex flex text-center text-2xl font-semibold">
               Identify. Solve. Excecute.
             </p>
-            <p className="mt-2 text-center text-sm text-[var(--text-color)] sm:text-base md:flex md:w-2/3">
+            <p className="mb-1 mt-2 text-center text-sm text-[var(--text-color)] sm:text-base">
               Based in South Australia, Zymez specializes in delivering
               exceptional software development services customized to your
               specific business requirements. Our team delivers state-of-the-art
               solutions that fuel growth and enhance operational efficiency.
             </p>
-            <p className="mb-2 text-center text-sm text-[var(--text-color)] sm:text-base md:flex md:w-2/3">
+            <p className="mb-2 text-center text-sm text-[var(--text-color)] sm:text-base">
               At Zymez, we specialize in developing robust, scalable, and
               user-friendly software solutions that empower businesses to thrive
               in the digital realm. Whether you require a web application,
@@ -39,7 +39,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="flex w-10/12 flex-col items-center justify-start gap-4 lg:w-4/12">
+        <div className="flex w-96 flex-col items-center justify-start gap-4">
           <div className="flex flex-row items-center justify-center gap-4">
             <div className="hover:text-none flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/70 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-48 xl:w-48">
               <p className="font-semibold">High-quality code</p>

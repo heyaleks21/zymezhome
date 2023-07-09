@@ -3,7 +3,7 @@ import React from "react";
 const Services = () => {
   return (
     <>
-      <div className="min-w-screen flex min-h-screen scale-75 flex-row flex-wrap items-center justify-center gap-12 xl:scale-100">
+      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 xl:scale-75">
         <div className="flex w-10/12 flex-col items-center justify-start gap-4 lg:w-4/12">
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Services
@@ -52,12 +52,6 @@ const Services = () => {
           </div>
           <div className="mb-4 h-2.5 w-full rounded-full bg-[#ff8000]">
             <div className="h-2.5 w-6/12 rounded-full bg-black/30"></div>
-          </div>
-          <div className="mb-1 text-base font-medium text-[var(--text-color)]">
-            Web design
-          </div>
-          <div className="mb-4 h-2.5 w-full rounded-full bg-[#ff8000]">
-            <div className="h-2.5 w-6/12 rounded-full bg-black/20"></div>
           </div>
         </div>
       </div>

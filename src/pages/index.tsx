@@ -6,6 +6,7 @@ import Team from "./Team";
 import Services from "./Services";
 import Footer from "./Footer";
 import TopButton from "./TopButton";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
         <div id="services"></div>
         <Services />
         <div id="contact"></div>
-
+        <Contact />
         <Footer />
       </main>
     </>

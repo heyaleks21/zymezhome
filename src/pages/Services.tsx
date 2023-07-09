@@ -99,7 +99,7 @@ const Services = () => {
                 </div>
               </div>
               <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/20 shadow-lg transition-all duration-500  [transform-style:preserve-3d]  hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-52 xl:w-52">
-                <p className="font-semibold">Realtime monitoring</p>
+                <p className="font-semibold">Support services</p>
                 <Image alt="" className="" src={monitorImg}></Image>
                 <div className="absolute inset-0 flex h-full w-full items-center items-center justify-center justify-center rounded bg-[var(--color5)] p-4 text-center text-[var(--color3)] shadow-lg [backface-visibility:hidden] [transform:rotateX(180deg)]">
                   <p className="text-xs font-normal lg:text-base lg:font-semibold">

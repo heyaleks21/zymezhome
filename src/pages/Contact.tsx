@@ -13,7 +13,7 @@ const Contact = () => {
                 <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                   Speak with
                 </h1>
-                <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
+                <h1 className="flex-col items-center justify-center pb-3 text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                   an
                   <span className="text-[var(--color3)]"> expert</span>
                 </h1>
@@ -40,15 +40,15 @@ const Contact = () => {
                 <p className="text-1xl flex flex-row items-center gap-1 pt-2 text-center font-semibold text-[var(--text-color)]">
                   <img className="w-6" src="/assets/placeholder.png"></img>Home
                 </p>
-                <p className="text-1xl pb-8 pt-2 text-center text-[var(--text-color)]">
+                <p className="text-1xl pb-9 pt-2 text-center text-[var(--text-color)]">
                   Adelaide, South Australia
                 </p>
               </div>
             </div>
           </div>
           <div className="pr:02 flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12 2xl:pr-52">
-            <form className="flex w-96 flex-col items-center justify-center gap-3 rounded  bg-[var(--color5)] px-5 pt-3">
-              <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
+            <form className="flex w-96 flex-col items-center justify-center gap-3 rounded bg-[var(--color5)] px-5 pb-4 pt-5">
+              <h1 className="flex-col items-center justify-center pb-3 text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                 What happens next?
               </h1>
               <p className="text-md flex flex pb-1 text-center font-semibold text-[var(--text-color)]">
@@ -78,13 +78,13 @@ const Contact = () => {
   return (
     <>
       <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 lg:scale-100 lg:flex-row lg:flex-row">
-        <div className="flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12 2xl:pl-52">
+        <div className="pl:0 flex w-10/12 flex-col items-center justify-center gap-4 lg:w-4/12 2xl:pl-52">
           <div className="flex flex-col items-center justify-center gap-4 rounded rounded bg-[var(--color5)] px-9 pt-7">
             <div className="">
               <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                 Speak with
               </h1>
-              <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
+              <h1 className="flex-col items-center justify-center pb-3 text-center text-5xl tracking-tight text-white lg:text-[2rem] lg:font-extrabold">
                 an
                 <span className="text-[var(--color3)]"> expert</span>
               </h1>
@@ -111,7 +111,7 @@ const Contact = () => {
               <p className="text-1xl flex flex-row items-center gap-1 pt-2 text-center font-semibold text-[var(--text-color)]">
                 <img className="w-6" src="/assets/placeholder.png"></img>Home
               </p>
-              <p className="text-1xl pb-8 pt-2 text-center text-[var(--text-color)]">
+              <p className="text-1xl pb-9 pt-2 text-center text-[var(--text-color)]">
                 Adelaide, South Australia
               </p>
             </div>

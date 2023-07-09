@@ -5,10 +5,10 @@ const Services = () => {
     <>
       <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 xl:scale-75">
         <div className="flex w-96 flex-col items-center justify-start gap-2">
-          <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
+          <h1 className="flex items-center justify-center pb-4 text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Services
           </h1>
-          <p className="text-[var(--color4) flex flex text-center text-2xl font-semibold">
+          <p className="text-[var(--color4) flex flex pb-2 text-center text-2xl font-semibold">
             Transforming your digital landscape
           </p>
           <div className="mb-1 mt-4 text-base font-medium text-[var(--text-color)]">

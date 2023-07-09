@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import test from "/public/assets/test.jpeg";
 import test1 from "/public/assets/test1.jpeg";
 import test2 from "/public/assets/test2.jpeg";
@@ -40,17 +40,21 @@ const Carousel = () => {
           <Image
             className="w-60 rounded bg-cover object-cover lg:w-96"
             alt=""
-            src={test1}
+            src={images[index] as StaticImageData}
           />
           <div>
-            <button className="btn" onClick={handleNext}>
+            <button className="" onClick={handleNext}>
               <Image className="rotate-90" src={topImg} alt="" />
             </button>
           </div>
         </div>
         <div className="flex items-center justify-center">
           <Link href="#contact">
-            <Image alt="" src={topImg} className="mt-8 rotate-180"></Image>
+            <Image
+              alt=""
+              src={topImg}
+              className="mt-67 rotate-180 pb-8"
+            ></Image>
           </Link>
         </div>
       </div>

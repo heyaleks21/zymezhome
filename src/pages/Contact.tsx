@@ -167,7 +167,6 @@ const Contact = () => {
               id="org"
             ></input>
             <textarea
-              rows="6"
               className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
               placeholder="Message..."
               name="message"

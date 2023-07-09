@@ -7,13 +7,13 @@ import anth from "/public/assets/anth.webp";
 const Team = () => {
   return (
     <>
-      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-12 xl:scale-100">
-        <div className="flex w-96 flex-col items-center justify-center gap-4">
+      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-8 xl:scale-100">
+        <div className="flex w-96 flex-col items-center justify-center gap-2">
           <h1 className="flex-col items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Meet Our
             <span className="text-[var(--color4)]"> Team</span>
           </h1>
-          <div className="pt-2 text-center text-2xl text-[var(--text-color)]">
+          <div className="pb-2 pt-2 text-center text-2xl text-[var(--text-color)]">
             Over a decade of experience
           </div>
           <div className="text-center text-[var(--text-color)]">

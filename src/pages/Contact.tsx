@@ -136,7 +136,6 @@ const Contact = () => {
               name="name"
               id="name"
               required
-              errors={state.errors}
             ></input>
             <input
               className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
@@ -145,7 +144,6 @@ const Contact = () => {
               name="email"
               id="email"
               required
-              errors={state.errors}
             ></input>
             <input
               className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
@@ -153,7 +151,6 @@ const Contact = () => {
               placeholder="Phone"
               name="phone"
               id="phone"
-              errors={state.errors}
             ></input>
             <input
               className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
@@ -161,7 +158,6 @@ const Contact = () => {
               placeholder="Website"
               name="website"
               id="website"
-              errors={state.errors}
             ></input>
             <input
               className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
@@ -169,7 +165,6 @@ const Contact = () => {
               placeholder="Organisation"
               name="org"
               id="org"
-              errors={state.errors}
             ></input>
             <textarea
               className="w-full rounded bg-white/30 px-1 text-[var(--color5)] placeholder-black/40"
@@ -177,7 +172,6 @@ const Contact = () => {
               name="message"
               id="message"
               required
-              errors={state.errors}
               rows={4}
             />
 

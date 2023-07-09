@@ -57,7 +57,7 @@ const Navbar = () => {
           </Link>
         </div>
         <Image
-          height={42}
+          height={44}
           alt=""
           onClick={() => {
             setIsNavExpanded(!isNavExpanded);

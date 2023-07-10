@@ -46,15 +46,6 @@ body {
   }
 }
 
-@keyframes slide-up {
-  from {
-    transform: translateY(100%);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-
 @keyframes slide-down {
   from {
     transform: translateY(-100%);
@@ -69,7 +60,7 @@ body {
     transform: translateX(-100%);
   }
   to {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
@@ -78,6 +69,6 @@ body {
     transform: translateX(100%);
   }
   to {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }

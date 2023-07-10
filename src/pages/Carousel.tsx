@@ -1,14 +1,13 @@
 import { useState } from "react";
 import Image, { StaticImageData } from "next/image";
-import test from "/public/assets/test.jpeg";
 import test1 from "/public/assets/test1.jpeg";
 import test2 from "/public/assets/test2.jpeg";
 import Link from "next/link";
 import topImg from "/public/assets/upload.png";
 
 const Carousel = () => {
-  const images = [test, test1, test2];
-  const length = 3;
+  const images = [test1, test2];
+  const length = 2;
 
   const [index, setIndex] = useState(0);
 

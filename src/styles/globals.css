@@ -26,15 +26,15 @@ body {
 }
 .slideside {
   animation-name: slide-side;
-  animation-duration: 2s;
+  animation-duration: 1.3s;
 }
 .slideside- {
   animation-name: slide-side-neg;
-  animation-duration: 2s;
+  animation-duration: 1.3s;
 }
 .slideup {
   animation-name: slide-up;
-  animation-duration: 2s;
+  animation-duration: 1.3s;
 }
 
 @keyframes fade-in {

@@ -39,7 +39,9 @@ const Team = () => {
                 <div className="flex min-h-full flex-col items-center justify-center">
                   <h1 className="text-2xl font-semibold">Anthony Dinino</h1>
                   <div className="text-md">CEO</div>
-                  <div className="hidden text-sm xl:flex">fuck fat bitches</div>
+                  <div className="hidden text-sm xl:flex">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </div>
                 </div>
               </div>
             </div>
@@ -55,7 +57,9 @@ const Team = () => {
               </div>
               <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-12 text-center text-slate-200 [backface-visibility:hidden] [transform:rotateY(180deg)]">
                 <div className="flex min-h-full flex-col items-center justify-center">
-                  <h1 className="text-2xl font-semibold">Calum Treloar</h1>
+                  <h1 className="text-2xl font-semibold">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </h1>
                   <div className="text-md">CEO</div>
                   <div className="hidden text-sm xl:flex">
                     who are these people
@@ -75,7 +79,9 @@ const Team = () => {
               </div>
               <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-12 text-center text-slate-200 [backface-visibility:hidden] [transform:rotateY(180deg)]">
                 <div className="flex min-h-full flex-col items-center justify-center">
-                  <h1 className="text-2xl font-semibold">Aleks Manevski</h1>
+                  <h1 className="text-2xl font-semibold">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </h1>
                   <div className="text-md">CEO</div>
                   <div className="hidden text-sm xl:flex">
                     no no shutup weed healthy

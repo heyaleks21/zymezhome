@@ -15,7 +15,7 @@ import aiImg from "/public/assets/ai.png";
 const Services = () => {
   return (
     <>
-      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center gap-8 xl:scale-100">
+      <div className="min-w-screen flex min-h-screen scale-75 flex-col items-center justify-center xl:scale-100">
         <div className="flex flex-col items-center justify-start gap-4">
           <h1 className="flex items-center justify-center text-center text-5xl tracking-tight text-white lg:text-[5rem] lg:font-extrabold">
             Services
@@ -23,7 +23,7 @@ const Services = () => {
           <p className="text-[var(--color4) flex flex pb-4 text-center text-2xl font-semibold">
             Transforming your digital landscape
           </p>
-          <div className="flex flex-row items-center justify-start gap-5 sm:flex-col">
+          <div className="flex flex-row items-center justify-start gap-4 sm:flex-col">
             <div className="flex flex-col flex-wrap items-center justify-center gap-4 sm:flex-row">
               <div className="hover:text-none flex h-36 w-36 flex-col items-center justify-center gap-3 rounded bg-white/70 shadow-lg transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateX(180deg)] lg:h-44 lg:w-44 xl:h-52 xl:w-52">
                 <p className="font-semibold">Web design</p>

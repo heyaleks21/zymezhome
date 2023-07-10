@@ -22,7 +22,7 @@ body {
 
 .slidedown {
   animation-name: slide-down;
-  animation-duration: 2s;
+  animation-duration: 1.3s;
 }
 .slideside {
   animation-name: slide-side;

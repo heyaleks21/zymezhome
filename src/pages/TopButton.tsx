@@ -27,7 +27,7 @@ const TopButton = () => {
           src={topImg}
           className={
             navColor
-              ? "fixed bottom-0 right-0 z-40 mb-4 mr-6 h-8 w-8"
+              ? "fixed bottom-0 right-0 z-40 mb-4 mr-6 h-8 w-8 animate-bounce"
               : "fixed bottom-0 z-40 hidden h-8 w-8"
           }
         ></Image>

@@ -31,7 +31,7 @@ const Team = () => {
               <div className="absolute inset-0">
                 <Image
                   src={anth}
-                  className="h-full w-full rounded-full bg-[url('/assets/anth.webp')] bg-cover object-cover shadow-xl shadow-black/40"
+                  className="h-full w-full rounded-full bg-[url('/assets/anth.webp')] shadow-xl shadow-black/40"
                   alt=""
                 />
               </div>
@@ -49,7 +49,7 @@ const Team = () => {
               <div className="absolute inset-0">
                 <Image
                   src={cal}
-                  className="h-full w-full rounded-full bg-[url('/assets/calum.png')] bg-cover object-cover shadow-xl shadow-black/40"
+                  className="h-full w-full rounded-full bg-[url('/assets/calum.png')] shadow-xl shadow-black/40"
                   alt=""
                 />
               </div>
@@ -69,7 +69,7 @@ const Team = () => {
               <div className="absolute inset-0">
                 <Image
                   src={aleks}
-                  className="h-full w-full rounded-full bg-[url('/assets/aleks.png')] bg-cover object-cover shadow-xl shadow-black/40"
+                  className="h-full w-full rounded-full bg-[url('/assets/aleks.png')] shadow-xl shadow-black/40"
                   alt=""
                 />
               </div>
@@ -86,7 +86,7 @@ const Team = () => {
           </div>
         </div>
         <div className="flex items-center justify-center lg:w-20">
-          <Link href="#services">
+          <Link className="" href="#services">
             <Image alt="" src={topImg} className="rotate-180"></Image>
           </Link>
         </div>
